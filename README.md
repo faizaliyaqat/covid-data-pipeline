@@ -4,7 +4,7 @@ Serverless AWS-based COVID-19 data pipeline using Python, S3, Athena.
 
 This project demonstrates how to build a complete, scalable, and serverless cloud data pipeline for COVID-19 data using AWS services and Python.
 
-The pipeline fetches data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data), processes it using Pandas, stores it in Amazon S3, and enables querying via Amazon Athena. The data was also visualized using Amazon QuickSight (dashboard trial used temporarily, then safely terminated).
+The pipeline fetches data from [Our World in Data](https://ourworldindata.org/coronavirus-source-data), processes it using Pandas, stores it in Amazon S3, and enables querying via Amazon Athena. The data was also visualized using Amazon QuickSight.
 
 ---
 
