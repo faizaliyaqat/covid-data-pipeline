@@ -1,6 +1,6 @@
-# covid-data-pipeline
-Serverless AWS-based COVID-19 data pipeline using Python, S3, Athena.
 # COVID-19 Cloud Data Pipeline Using AWS (Serverless)
+
+Serverless AWS-based COVID-19 data pipeline using Python, S3, Athena.
 
 This project demonstrates how to build a complete, scalable, and serverless cloud data pipeline for COVID-19 data using AWS services and Python.
 
@@ -8,16 +8,13 @@ The pipeline fetches data from [Our World in Data](https://ourworldindata.org/co
 
 ---
 
-## Dashboard Preview
-
-### Full Dashboard Overview
-![Dashboard](screenshots/dashboard_overview.png)
-
 ### Daily New Cases in India
-![Line Chart](screenshots/line_chart_india.png)
+
+![Screenshot 2025-07-10 012126](https://github.com/user-attachments/assets/78016206-3f2b-40be-8f2c-a2e0bc3fc549)
 
 ### Total COVID Cases by Country
-![Bar Chart](screenshots/bar_chart_world.png)
+
+![Screenshot 2025-07-10 012114](https://github.com/user-attachments/assets/b84c00bb-3f61-4919-bf3f-ecbde71f61c8)
 
 ---
 
@@ -38,7 +35,6 @@ The pipeline fetches data from [Our World in Data](https://ourworldindata.org/co
 
 OWID Dataset → Python Script → Clean CSV → S3 Bucket → Athena Table → SQL Queries → [QuickSight Dashboard]
 
-
 ---
 
 ## Sample Athena Query
@@ -52,17 +48,6 @@ FROM covid_data_csv
 WHERE location = 'India'
 ORDER BY date;
 ---
-
-##  𝐖𝐡𝐚𝐭 𝐈 𝐋𝐞𝐚𝐫𝐧𝐞𝐝
-1.Setting up S3-Athena integration
-
-2.Writing clean ETL scripts using Python and Pandas
-
-3.Casting and handling data types in Athena SQL
-
-4.Designing effective data visualizations with QuickSight (cloud BI tools)
-
-5.Managing cloud resources responsibly (avoiding billing)
 
 
 
